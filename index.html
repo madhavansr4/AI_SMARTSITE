@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Web Revolution | Futuristic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">AI<span>SmartSite</span></a>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#evolution">AI Evolution</a></li>
+                    <li class="dropdown" id="dropdown">
+                        <a href="#tools">AI Tools <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#" data-tool="chatgpt">ChatGPT</a>
+                            <a href="#" data-tool="midjourney">MidJourney</a>
+                            <a href="#" data-tool="github-copilot">GitHub Copilot</a>
+                            <a href="#" data-tool="notion-ai">Notion AI</a>
+                            <a href="#" data-tool="dalle">DALL-E</a>
+                            <a href="#" data-tool="bard">Google Bard</a>
+                        </div>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-bg">
+            <img src="https://img.freepik.com/premium-photo/artificial-intelligence-data-science-icon-element-design-vector-illustration_41050-7319.jpg?w=740" alt="AI Background">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Revolutionizing Web Design with <span class="hero-highlight">AI</span></h1>
+                <p>Discover how artificial intelligence is transforming the way we create, design, and develop websites. From automated coding to intelligent design suggestions, AI is making web development faster, smarter, and more accessible than ever before.</p>
+                <a href="#evolution" class="btn">Explore AI Evolution</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Evolution Section -->
+    <section id="evolution">
+        <div class="container">
+            <h2 class="section-title">AI Evolution Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-year">1950</div>
+                        <h3>The Dawn of AI</h3>
+                        <p>Alan Turing proposes the Turing Test as a measure of machine intelligence in his paper "Computing Machinery and Intelligence."</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-year">1956</div>
+                        <h3>Birth of AI</h3>
+                        <p>The term "Artificial Intelligence" is coined at the Dartmouth Conference, marking the official birth of AI as a field of study.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-year">1997</div>
+                        <h3>Deep Blue vs. Kasparov</h3>
+                        <p>IBM's Deep Blue becomes the first computer to defeat a reigning world chess champion under standard time controls.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2011</div>
+                        <h3>Watson Wins Jeopardy!</h3>
+                        <p>IBM's Watson defeats the two greatest Jeopardy! champions, showcasing the power of natural language processing.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2014</div>
+                        <h3>Generative Adversarial Networks</h3>
+                        <p>Ian Goodfellow introduces GANs, enabling AI to generate realistic images, videos, and voice impersonations.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2020</div>
+                        <h3>GPT-3 Released</h3>
+                        <p>OpenAI releases GPT-3, a language model with 175 billion parameters, capable of generating human-like text.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2023</div>
+                        <h3>AI Goes Mainstream</h3>
+                        <p>ChatGPT reaches 100 million users in just two months, making AI accessible to the general public like never before.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tools Section -->
+    <section id="tools">
+        <div class="container">
+            <h2 class="section-title">Trending AI Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <h3>ChatGPT</h3>
+                    <p>OpenAI's conversational AI that can understand and generate human-like text based on prompts, revolutionizing how we interact with machines.</p>
+                    <button class="btn tool-btn" data-tool="chatgpt">Learn More</button>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>MidJourney</h3>
+                    <p>An AI program that generates images from natural language descriptions, enabling stunning visual creations from simple text prompts.</p>
+                    <button class="btn tool-btn" data-tool="midjourney">Learn More</button>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>GitHub Copilot</h3>
+                    <p>An AI pair programmer that suggests code and entire functions in real-time, dramatically speeding up development workflows.</p>
+                    <button class="btn tool-btn" data-tool="github-copilot">Learn More</button>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-sticky-note"></i>
+                    </div>
+                    <h3>Notion AI</h3>
+                    <p>Enhances productivity by helping with writing, brainstorming, summarizing, and organizing information within the Notion workspace.</p>
+                    <button class="btn tool-btn" data-tool="notion-ai">Learn More</button>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-sticky-note"></i>
+                    </div>
+                    <h3>DALL-E</h3>
+                    <p>Generates stunning images from text prompts, enabling creativity, visual storytelling, and design innovation with AI-powered artistry.</p>
+                    <button class="btn tool-btn" data-tool="notion-ai">Learn More</button>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-sticky-note"></i>
+                    </div>
+                    <h3>Google Bard</h3>
+                    <p>Provides AI-powered assistance for research, writing, brainstorming, and answering questions with real-time information and contextual understanding.</p>
+                    <button class="btn tool-btn" data-tool="notion-ai">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About AI in Web Development</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Artificial Intelligence is revolutionizing web development by automating repetitive tasks, generating code, optimizing user experiences, and providing intelligent design suggestions.</p>
+                    <p>From AI-powered website builders that create complete sites from simple prompts to tools that automatically optimize for performance and accessibility, the integration of AI is making web development faster, more efficient, and more accessible to non-technical users.</p>
+                    <p>The future of web development lies in the synergy between human creativity and AI capabilities, where developers can focus on innovation while AI handles the routine aspects of coding and optimization.</p>
+                    <a href="#contact" class="btn">Get in Touch</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://img6.arthub.ai/655f5dfa-78cf.webp" alt="AI and Web Development">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="subject" placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-text">Interested in learning more about AI-powered web development?</p>
+            <a href="#contact" class="btn">Contact Us</a>
+            <p class="copyright">&copy; 2023 AI Web Revolution. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="toolModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modalTitle">AI Tool</h2>
+            <div id="modalContent">
+                <p>Loading tool information...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
